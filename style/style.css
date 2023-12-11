@@ -186,9 +186,6 @@ body{
         width: 100%;
     }
     .img-btn{
-        position: absolute;
-        left: 42%;
-        top: 2466px;
         border: 0px;
         border-radius: 8px;
         background-color: #FF900E;
@@ -397,10 +394,7 @@ body{
     .describe-image{
         width: 100%;
     }
-    .img-btn{
-        top: 4466px;
-        left: 1%;
-    }
+   
     /* ------------------facts------------------ */
     .facts{
         margin-top: 131px;
@@ -467,10 +461,6 @@ body{
     }
     .describe-image{
         width: 100%;
-    }
-    .img-btn{
-        top: 4401px;
-        left: 1%;
     }
      /* ------------------facts------------------ */
      .facts{
