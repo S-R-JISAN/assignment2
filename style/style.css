@@ -186,6 +186,9 @@ body{
         width: 100%;
     }
     .img-btn{
+        position: relative;
+        bottom: 120px;
+        right: 27px;
         border: 0px;
         border-radius: 8px;
         background-color: #FF900E;
@@ -339,14 +342,6 @@ body{
         font-family: Work Sans;
         font-weight: 400;
     }
-
-
-
-
-
-
-
-
 /* ------------------responsive mobile----------------------     
 ------------------------------------------------------------*/
 @media screen and (max-width:576px) {
@@ -396,10 +391,15 @@ body{
     .description{
         width: 100%;
     }
+    .heading{
+        width: 100%;
+    }
     .describe-image{
         width: 100%;
     }
-   
+    .img-btn{
+        bottom: 47px;
+    }
     /* ------------------facts------------------ */
     .facts{
         margin-top: 10px;
@@ -423,6 +423,9 @@ body{
     .footer{
         margin-top: 45px;
         width: 100%;
+    }
+    .footer p{
+        padding-top: 34px;
     }
 }
     /*-----------------------Tab-responsive------------------- */
@@ -467,9 +470,11 @@ body{
     .describe-image{
         width: 100%;
     }
+    .img-btn{
+        bottom: 95px;
+    }
      /* ------------------facts------------------ */
      .facts{
-        margin-top: 131px;
         margin-left: 62px;
         width: 40%;
      }
